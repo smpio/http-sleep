@@ -7,7 +7,7 @@ HTTP endpoint that just sleeps for specified duration and returns 200.
 
 ```
 $ ./http-sleep -port 8000 &
-$ time curl localhost:80/3s
+$ time curl localhost:8000/3s
 OK
 real	0m3.011s
 ```
